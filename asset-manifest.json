@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alphabet-notes-app/static/css/main.f855e6bc.css",
+    "main.js": "/alphabet-notes-app/static/js/main.fed16633.js",
+    "static/js/453.b1834e0d.chunk.js": "/alphabet-notes-app/static/js/453.b1834e0d.chunk.js",
+    "index.html": "/alphabet-notes-app/index.html",
+    "main.f855e6bc.css.map": "/alphabet-notes-app/static/css/main.f855e6bc.css.map",
+    "main.fed16633.js.map": "/alphabet-notes-app/static/js/main.fed16633.js.map",
+    "453.b1834e0d.chunk.js.map": "/alphabet-notes-app/static/js/453.b1834e0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.fed16633.js"
+  ]
+}
