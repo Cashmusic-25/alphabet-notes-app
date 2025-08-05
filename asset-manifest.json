@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/alphabet-notes-app/static/css/main.f855e6bc.css",
-    "main.js": "/alphabet-notes-app/static/js/main.fed16633.js",
+    "main.css": "/alphabet-notes-app/static/css/main.5768500b.css",
+    "main.js": "/alphabet-notes-app/static/js/main.2d15f80f.js",
     "static/js/453.b1834e0d.chunk.js": "/alphabet-notes-app/static/js/453.b1834e0d.chunk.js",
     "index.html": "/alphabet-notes-app/index.html",
-    "main.f855e6bc.css.map": "/alphabet-notes-app/static/css/main.f855e6bc.css.map",
-    "main.fed16633.js.map": "/alphabet-notes-app/static/js/main.fed16633.js.map",
+    "main.5768500b.css.map": "/alphabet-notes-app/static/css/main.5768500b.css.map",
+    "main.2d15f80f.js.map": "/alphabet-notes-app/static/js/main.2d15f80f.js.map",
     "453.b1834e0d.chunk.js.map": "/alphabet-notes-app/static/js/453.b1834e0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.fed16633.js"
+    "static/css/main.5768500b.css",
+    "static/js/main.2d15f80f.js"
   ]
 }
