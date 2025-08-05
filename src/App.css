@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+/* iOS Safe Area Support */
+@supports (padding: max(0px)) {
+  .pb-safe {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+}
+
+/* Fallback for older browsers */
+.pb-safe {
+  padding-bottom: 1rem;
+}
+
+/* Ensure content doesn't get hidden behind iPhone home indicator */
+@media screen and (max-width: 640px) {
+  .pb-safe {
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+/* iPad and tablet optimizations */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Ensure proper font rendering on iPad */
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  /* Fix potential font scaling issues */
+  body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  
+  /* Ensure proper line heights for better readability */
+  .leading-none {
+    line-height: 1 !important;
+  }
+  
+  .leading-tight {
+    line-height: 1.25 !important;
+  }
+}
+
+/* Large screen optimizations */
+@media screen and (min-width: 1025px) {
+  /* Ensure consistent font rendering across all devices */
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
